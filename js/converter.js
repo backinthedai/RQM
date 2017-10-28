@@ -6,7 +6,7 @@ var timerStatus = document.getElementById("timer");
 
 let nextQuoteCounter = 1;
 
-ourRequest.open('GET', 'https://raw.githubusercontent.com/dpsolsys/VS_Code/master/RandomQuoteMachine/RQM2/json/quotes2.json');
+ourRequest.open('GET', 'https://raw.githubusercontent.com/backinthedai/RQM/master/json/quotes2.json');
 
 //array to hold quote and name as object
 var quoteArr = [];
